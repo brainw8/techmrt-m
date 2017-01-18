@@ -7,8 +7,6 @@ body {
   background-color: #FFFFFF;
 }
 
-
-
 .container {
   width: 940px;
   padding: 0 10px;
@@ -34,7 +32,7 @@ body {
 .top-panel {
   background-color: #293449;
   min-height: 40px;
-  margin-bottom: 49px;
+  margin-bottom: 45px;
   color: #FFFFFF;
 }
 
@@ -132,9 +130,13 @@ body {
 }
 
 .header-right {
-  width: 250px;
+  width: 282px;
   float: right;
   margin-left: 38px;
+  color: #000000;
+  font-size: 21px;
+  line-height: 21px;
+  text-align: right;
 }
 
 .middle-panel {
@@ -151,14 +153,23 @@ body {
   font-size: 21px;
   line-height: 21px;
   padding: 10px;
+  padding-left: 34px;
   text-align: center;
 }
 
 .header-tel span {
   position: absolute;
-  top: 5px;
+  top: px;
   left: 10px;
   color: #b7bfc8;
+}
+
+.header-text {
+  padding-top: 5px;
+}
+
+.addres {
+  margin: 3px 10px;
 }
 
 .navigation-menu {
@@ -366,4 +377,30 @@ figure.pop-item:last-child {
 .main-footer p {
   margin: 0;
   padding: 0;
+}
+.login {
+  position: relative;
+  min-height: 45px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+
+.login:first-child {
+
+  padding-left: 53px;
+  margin-right: 11px;
+
+}
+
+.header-right span {
+  position: absolute;
+  top: 12px;
+  left: 9px;
+}
+
+.header-right a:link, .header-right a:active, .header-right a:visited {
+  text-decoration: none;
+  color: black;
 }

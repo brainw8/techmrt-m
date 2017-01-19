@@ -31,7 +31,7 @@ body {
 
 .top-panel {
   background-color: #293449;
-  min-height: 40px;
+  min-height: px;
   margin-bottom: 45px;
   color: #FFFFFF;
 }
@@ -140,7 +140,7 @@ body {
 }
 
 .middle-panel {
-  margin-bottom: 39px;
+  margin-bottom: 35px;
 }
 
 .header-tel {
@@ -172,6 +172,34 @@ body {
   margin: 3px 10px;
 }
 
+.login {
+  position: relative;
+  min-height: 45px;
+  background-color: #FFFFFF;
+  display: inline-block;
+  padding: 12px 23px;
+  box-sizing: border-box;
+}
+
+.login:first-child {
+  padding-left: 40px;
+  margin-right: 8px;
+}
+
+.header-right span {
+  position: absolute;
+  top: 12px;
+  left: 2px;
+  opacity: 0.3;
+}
+
+.header-right a:link,
+.header-right a:active,
+.header-right a:visited {
+  text-decoration: none;
+  color: black;
+}
+
 .navigation-menu {
   background-color: #293449;
   color: #FFFFFF;
@@ -184,13 +212,32 @@ ul {
   padding: 0;
   margin: 0;
   list-style: none;
+  font-size: 0;
 }
 
-.navigation-menu ul a:link,
-.navigation-menu ul a:active,
-.navigation-menu ul a:visited {
+.navigation-menu  a:link,
+.navigation-menu  a:active,
+.navigation-menu  a:visited {
   color: #FFFFFF;
   text-decoration: none;
+}
+
+.navigation-menu li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navigation-menu li:first-child {
+  margin-left: 22px;
+}
+
+
+.navigation-menu a {
+  display: block;
+  font-size: 17px;
+  line-height: 17px;
+  padding: 20px 31px;
+
 }
 
 .promo-block {
@@ -378,29 +425,4 @@ figure.pop-item:last-child {
   margin: 0;
   padding: 0;
 }
-.login {
-  position: relative;
-  min-height: 45px;
-  background-color: #FFFFFF;
-  display: inline-block;
-  padding: 12px 20px;
-  box-sizing: border-box;
-}
 
-.login:first-child {
-
-  padding-left: 53px;
-  margin-right: 11px;
-
-}
-
-.header-right span {
-  position: absolute;
-  top: 12px;
-  left: 9px;
-}
-
-.header-right a:link, .header-right a:active, .header-right a:visited {
-  text-decoration: none;
-  color: black;
-}

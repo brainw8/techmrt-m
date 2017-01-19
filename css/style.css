@@ -245,6 +245,7 @@ ul {
 }
 
 .promo-items {
+  position: relative;
   width: 300px;
   float: left;
   min-height: 123px;
@@ -256,6 +257,8 @@ ul {
   float: left;
   width: 620px;
   min-height: 266px;
+  background: #b3afac url(../img/drill.jpg) no-repeat center;
+  color: #FFFFFF;
 }
 
 .promo-items:first-child {
@@ -426,3 +429,53 @@ figure.pop-item:last-child {
   padding: 0;
 }
 
+
+.promo-items-name {
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF;
+  width: 137px;
+  margin-left: 23px;
+}
+
+.promo-materials {
+  background: #f6b22d url(../img/materials.png) no-repeat  210px
+}
+
+.promo-tools {
+  background: #4aafde url(../img/tools.png) no-repeat  210px}
+
+.promo-technics {
+  background: #cc79d1 url(../img/technics.png) no-repeat  210px}
+
+.promo-discount {
+  background: #85d179 url(../img/discount.png) no-repeat  210px}
+
+.promo-shipping {
+  background: #f6b22d url(../img/shipping.png) no-repeat  210px}
+
+
+.promo-link {
+  display: block;
+  width: 135px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 12px 0;
+  background: rgba(0,0,0, 0.2);
+  color: #FFFFFF;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-left: 25px;
+}
+
+.promo-new {
+  position: absolute;
+  top: 0px;
+  left: 240px;
+  background: url(../img/new.png) no-repeat center;
+  width: 60px;
+  height: 59px;
+}

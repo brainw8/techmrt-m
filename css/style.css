@@ -254,6 +254,7 @@ ul {
 }
 
 .promo-big {
+  position: relative;
   float: left;
   width: 620px;
   min-height: 266px;
@@ -435,7 +436,10 @@ figure.pop-item:last-child {
   line-height: 30px;
   color: #FFFFFF;
   width: 137px;
+  margin: 0;
   margin-left: 23px;
+  margin-top: 20px;
+  margin-bottom: 9px
 }
 
 .promo-materials {
@@ -443,16 +447,16 @@ figure.pop-item:last-child {
 }
 
 .promo-tools {
-  background: #4aafde url(../img/tools.png) no-repeat  210px}
+  background: #4aafde url(../img/tools.png) no-repeat  200px}
 
 .promo-technics {
-  background: #cc79d1 url(../img/technics.png) no-repeat  210px}
+  background: #cc79d1 url(../img/technics.png) no-repeat  190px}
 
 .promo-discount {
-  background: #85d179 url(../img/discount.png) no-repeat  210px}
+  background: #85d179 url(../img/discount.png) no-repeat  200px}
 
 .promo-shipping {
-  background: #f6b22d url(../img/shipping.png) no-repeat  210px}
+  background: #f6b22d url(../img/shipping.png) no-repeat  190px}
 
 
 .promo-link {
@@ -462,8 +466,8 @@ figure.pop-item:last-child {
   text-transform: uppercase;
   font-size: 14px;
   line-height: 18px;
-  padding: 12px 0;
-  background: rgba(0,0,0, 0.2);
+  padding: 10px 0;
+  background: rgba(0,0,0, 0.1);
   color: #FFFFFF;
   text-decoration: none;
   border: 1px solid transparent;
@@ -479,3 +483,39 @@ figure.pop-item:last-child {
   width: 60px;
   height: 59px;
 }
+
+.promo-big span {
+  display: block;
+  font-family: "PT Sans", "Arial", sans-serif;
+  margin-left: 27px;
+}
+
+
+
+.promo-items-name-big {
+  font-size: 36px;
+  line-height: 30px;
+  text-transform: uppercase;
+
+  margin-top: 27px;
+  margin-left: 27px;
+  margin-bottom: 10px;
+
+}
+
+.arrow {
+  position: absolute;
+  width: 10px;
+  font-size: 45px;
+}
+
+.promo-big .arrow:first-of-type {
+  top: 114px;
+  left: 0px;
+}
+
+.promo-big .arrow:last-of-type {
+  top: 114px;
+  right: 50px;
+}
+

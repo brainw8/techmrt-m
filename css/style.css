@@ -71,7 +71,7 @@ body {
 }
 
 .btn {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   color: #FFFFFF;
   padding-top: 12px;
@@ -82,13 +82,26 @@ body {
   border: none;
   outline: none;
   cursor: pointer;
+  background-color: #ee3643;
+  text-align: center;
+  padding: 12px 50px;
+  text-transform: uppercase;
+  border-radius: 8px;
 }
 
 .submit-order {
   background-color: #63a63e;
   font-size: 17px;
+  font-weight: 400;
   padding: 12px 20px;
   display: inline-block;
+  text-decoration: none;
+  line-height: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  border: none;
+  font-family: "Cuprum", "Arial", sans-serif;
+
 }
 
 .basket {
@@ -519,3 +532,30 @@ figure.pop-item:last-child {
   right: 50px;
 }
 
+
+.promo-btn {
+  position: absolute;
+  top: 208px;
+  left: 25px;
+}
+
+.slider-btn {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 225px;
+  box-sizing: border-box;
+}
+
+.one-btn {
+  left: 300px;
+  background-color: red;
+  border: 2px solid #FFFFFF;
+}
+
+.two-btn {
+  left: 320px;
+}

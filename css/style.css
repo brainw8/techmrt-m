@@ -7,6 +7,16 @@ body {
   background-color: #FFFFFF;
 }
 
+main p {
+  font-family: "PT sans", "Arial", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+
+
+
 .container {
   width: 940px;
   padding: 0 10px;
@@ -497,7 +507,8 @@ figure.pop-item:last-child {
 .service-block {
   background-color: #f2f6f8;
   padding-top: 38px;
-  padding-bottom: 100px;
+  padding-bottom: 47px;
+  margin-bottom: 52px
 }
 
 .service-block h2 {
@@ -510,18 +521,22 @@ figure.pop-item:last-child {
 
 .service-title {
   width: 400px;
-  margin-bottom: 70px;
+  margin-bottom: 66px;
 }
 
 .service-content {
-  width: 300px;
-  min-height: 200px;
+
+  min-height: 183px;
   float: left;
-  margin-right: 20px;
+
 }
 
 .service-content-right {
+  min-height: 240px;
   margin-right: 0;
+  float: right;
+  width: 620px;
+  background: url(../img/lorri.png) no-repeat top 23px right;
 }
 
 .about-block {
@@ -532,7 +547,10 @@ figure.pop-item:last-child {
 .about-left {
   float: left;
   width: 540px;
+
 }
+
+
 
 .about-right {
   width: 300px;
@@ -544,7 +562,7 @@ figure.pop-item:last-child {
   line-height: 30px;
   font-weight: 500;
   text-transform: uppercase;
-  margin-bottom: 35px;
+
 }
 
 .footer-nav-panel {
@@ -667,4 +685,78 @@ figure.pop-item:last-child {
   padding-left: 0;
   padding-right: 0;
   width: 253px;
+}
+
+.service-content-left {
+  width: 240px;
+  font-size: 21px;
+  line-height: 30px;
+  color: #FFFFFF;
+  font-weight: 700;
+  background-color: #32425c;
+}
+
+.service-content-left span {
+  display: block;
+  padding: 15px 22px;
+}
+
+.service-content-left span:first-child {
+  background-color: #FFFFFF;
+  color: #32425c;
+}
+
+.service-content-left span:last-child {
+  border-top: 1px solid #405069;
+}
+.service-content-right p {
+  display: block;
+  width: 280px;
+}
+
+.service-content-right h2 {
+  font-size: 36px;
+  line-height: 32px;
+  margin: 0;
+  margin-right: 340px;
+  margin-bottom: 28px
+}
+.about-left p {
+  padding-bottom: 10px
+}
+
+.about-item {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 20px;
+  padding-left: 37px;
+  padding-bottom: 20px;
+
+}
+
+
+.about-item::before {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 2px;
+  position: absolute;
+  top: 9px;
+  left: 0;
+  background-color: #fb565a;
+}
+.about-bnt {
+  margin-top: 13px;
+  padding: 12px 40px;
+
+}
+
+.map {
+  margin-top: 18px;
+  margin-bottom: 31px
+}
+
+.about-addres-btn {
+  padding: 12px 63px;
 }

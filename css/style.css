@@ -15,8 +15,6 @@ main p {
   color: #000000;
 }
 
-
-
 .container {
   width: 940px;
   padding: 0 10px;
@@ -69,6 +67,23 @@ main p {
   letter-spacing: 0.5px;
 }
 
+.logo-bottom {
+  position: absolute;
+  width: 220px;
+  height: 69px;
+  font-weight: 700;
+  background-color: #ee3643;
+  color: #FFFFFF;
+  font-size: 30px;
+  line-height: 30px;
+  border-bottom: 5px solid #b52933;
+  text-align: center;
+  padding-top: 18px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  /*letter-spacing: 0.5px;*/
+}
+
 .search {
   margin-left: 234px;
   padding-top: 12px
@@ -84,7 +99,6 @@ main p {
   display: inline-block;
   text-decoration: none;
   color: #FFFFFF;
-
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -111,7 +125,6 @@ main p {
   text-align: center;
   border: none;
   font-family: "Cuprum", "Arial", sans-serif;
-
 }
 
 .basket {
@@ -238,9 +251,9 @@ ul {
   font-size: 0;
 }
 
-.navigation-menu  a:link,
-.navigation-menu  a:active,
-.navigation-menu  a:visited {
+.navigation-menu a:link,
+.navigation-menu a:active,
+.navigation-menu a:visited {
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -254,13 +267,11 @@ ul {
   margin-left: 22px;
 }
 
-
 .navigation-menu a {
   display: block;
   font-size: 17px;
   line-height: 17px;
   padding: 20px 31px;
-
 }
 
 .promo-block {
@@ -305,21 +316,24 @@ ul {
 }
 
 .promo-materials {
-  background: #f6b22d url(../img/materials.png) no-repeat  210px
+  background: #f6b22d url(../img/materials.png) no-repeat 210px
 }
 
 .promo-tools {
-  background: #4aafde url(../img/tools.png) no-repeat  200px}
+  background: #4aafde url(../img/tools.png) no-repeat 200px
+}
 
 .promo-technics {
-  background: #cc79d1 url(../img/technics.png) no-repeat  190px}
+  background: #cc79d1 url(../img/technics.png) no-repeat 190px
+}
 
 .promo-discount {
-  background: #85d179 url(../img/discount.png) no-repeat  200px}
+  background: #85d179 url(../img/discount.png) no-repeat 200px
+}
 
 .promo-shipping {
-  background: #f6b22d url(../img/shipping.png) no-repeat  190px}
-
+  background: #f6b22d url(../img/shipping.png) no-repeat 190px
+}
 
 .promo-link {
   display: block;
@@ -329,7 +343,7 @@ ul {
   font-size: 14px;
   line-height: 18px;
   padding: 10px 0;
-  background: rgba(0,0,0, 0.1);
+  background: rgba(0, 0, 0, 0.1);
   color: #FFFFFF;
   text-decoration: none;
   border: 1px solid transparent;
@@ -352,17 +366,13 @@ ul {
   margin-left: 27px;
 }
 
-
-
 .promo-items-name-big {
   font-size: 36px;
   line-height: 30px;
   text-transform: uppercase;
-
   margin-top: 27px;
   margin-left: 27px;
   margin-bottom: 10px;
-
 }
 
 .arrow {
@@ -380,7 +390,6 @@ ul {
   top: 114px;
   right: 50px;
 }
-
 
 .promo-btn {
   position: absolute;
@@ -409,7 +418,6 @@ ul {
   left: 320px;
 }
 
-
 .pop-block {
   margin-bottom: 66px;
 }
@@ -422,7 +430,6 @@ ul {
   min-height: 90px;
   background-color: #f7f3ec;
   margin-bottom: 20px;
-
 }
 
 .pop-title h2 {
@@ -432,17 +439,15 @@ ul {
   float: left;
   color: #32425c;
   width: 420px;
-  margin-top:30px;
+  margin-top: 30px;
   margin-left: 29px;
   text-transform: uppercase;
 }
 
-
-
 .pop-title a {
   display: block;
   float: right;
-   margin-top: 25px;
+  margin-top: 25px;
   margin-right: 25px;
 }
 
@@ -461,7 +466,6 @@ ul {
 
 .pop-techics:nth-of-type(2) {
   margin-top: 30px;
-
 }
 
 figure.pop-item:last-child {
@@ -474,9 +478,6 @@ figure.pop-item:last-child {
   margin-bottom: 10px;
   font-size: 18px;
   line-height: 20px;
-
-
-
 }
 
 .pop-block ul {
@@ -497,7 +498,6 @@ figure.pop-item:last-child {
 
 .pop-brand img {
   vertical-align: middle;
-
 }
 
 .pop-brand:nth-child(4n) {
@@ -525,10 +525,8 @@ figure.pop-item:last-child {
 }
 
 .service-content {
-
   min-height: 183px;
   float: left;
-
 }
 
 .service-content-right {
@@ -547,10 +545,7 @@ figure.pop-item:last-child {
 .about-left {
   float: left;
   width: 540px;
-
 }
-
-
 
 .about-right {
   width: 300px;
@@ -562,7 +557,6 @@ figure.pop-item:last-child {
   line-height: 30px;
   font-weight: 500;
   text-transform: uppercase;
-
 }
 
 .footer-nav-panel {
@@ -573,7 +567,7 @@ figure.pop-item:last-child {
 
 .footer-nav-top {
   min-height: 69px;
-  margin-bottom: 30px;
+  margin-bottom: 7px;
 }
 
 .footer-nav-bottom {
@@ -584,22 +578,62 @@ figure.pop-item:last-child {
 .main-footer {
   min-height: 105px;
   background-color: #293449;
+  font-size: 16px;
+  line-height: 18px;
+  padding-top: 39px
+
 }
 
 .copyright {
   width: 240px;
   float: left;
+  color: #FFFFFF;
+
+
 }
 
-.social {
-  margin-left: 150px;
+.social-block {
+  margin-left: 145px;
   width: 140px;
   float: left;
+
+  font-size: 0;
 }
 
 .connect {
-  width: 300px;
+  width: 350px;
   float: right;
+  font-size: 0;
+}
+
+.connect a:link {
+  text-decoration: none;
+
+}
+
+
+
+.connect a:link:hover {
+  text-decoration: underline;
+
+}
+
+.connect a:active:hover {
+  color: #ee3643;
+  text-decoration: none;
+}
+
+
+.connect a {
+  display: block;
+  color: #ffd180;
+}
+
+.connect b {
+  display: block;
+  color: #FFFFFF;
+
+
 }
 
 .main-footer p {
@@ -607,19 +641,14 @@ figure.pop-item:last-child {
   padding: 0;
 }
 
-
-
 .pop-tools-cnt {
-
   border: 1px solid transparent;
-
 }
 
 .pop-technics {
   display: block;
   position: absolute;
   left: 50%;
-
 }
 
 .bfg9000 {
@@ -628,10 +657,9 @@ figure.pop-item:last-child {
 }
 
 .bfg3000 {
- margin-left: -70px;
- margin-top: 26px;
+  margin-left: -70px;
+  margin-top: 26px;
 }
-
 
 .bfg6000 {
   margin-left: -85px;
@@ -643,9 +671,8 @@ figure.pop-item:last-child {
   margin-top: 26px;
 }
 
-
 .btn-item {
-  display:block;
+  display: block;
   position: absolute;
   left: 41px;
   bottom: 20px;
@@ -656,7 +683,6 @@ figure.pop-item:last-child {
   font-family: "PT sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
-
 }
 
 .btn-item::after {
@@ -678,7 +704,6 @@ figure.pop-item:last-child {
   text-decoration: line-through;
   margin-bottom: 12px;
   color: #999999;
-
 }
 
 .pop-btn {
@@ -701,6 +726,12 @@ figure.pop-item:last-child {
   padding: 15px 22px;
 }
 
+.service-content-left span:hover {
+  background-color: #293449;
+}
+
+
+
 .service-content-left span:first-child {
   background-color: #FFFFFF;
   color: #32425c;
@@ -709,6 +740,7 @@ figure.pop-item:last-child {
 .service-content-left span:last-child {
   border-top: 1px solid #405069;
 }
+
 .service-content-right p {
   display: block;
   width: 280px;
@@ -721,6 +753,7 @@ figure.pop-item:last-child {
   margin-right: 340px;
   margin-bottom: 28px
 }
+
 .about-left p {
   padding-bottom: 10px
 }
@@ -732,9 +765,7 @@ figure.pop-item:last-child {
   line-height: 20px;
   padding-left: 37px;
   padding-bottom: 20px;
-
 }
-
 
 .about-item::before {
   content: "";
@@ -746,10 +777,10 @@ figure.pop-item:last-child {
   left: 0;
   background-color: #fb565a;
 }
+
 .about-bnt {
   margin-top: 13px;
   padding: 12px 40px;
-
 }
 
 .map {
@@ -759,4 +790,91 @@ figure.pop-item:last-child {
 
 .about-addres-btn {
   padding: 12px 63px;
+}
+
+.footer-nav-1 a:link,
+.footer-nav-1 a:active,
+.footer-nav-1 a:visited {
+  text-decoration: none;
+  color: #f1f5f7;
+}
+
+.footer-nav-2 a:link,
+.footer-nav-2 a:active,
+.footer-nav-2 a:visited {
+  text-decoration: none;
+  color: #ffd180;
+}
+.footer-nav-panel a:link:hover {
+  text-decoration: underline;
+}
+
+.footer-nav-panel a:active:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.footer-nav-1 li {
+  display: inline-block;
+  margin-top: 28px;
+  margin-left: 60px
+}
+
+.footer-nav-2 li {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 60px
+}
+
+.footer-nav-panel a {
+  display: block;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 10px 0;
+}
+
+.footer-nav-1 {
+  float: right;
+}
+
+.footer-nav-adress {
+  float: left;
+  width: 330px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #f1f5f7;
+}
+
+.footer-nav-adress p {}
+
+.footer-nav-2 {
+  float: right;
+  vertical-align: top;
+}
+
+.social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 18px;
+  line-height: 40px;
+  color: #FFFFFF;
+  margin-left: 5px;
+  background-color: #212a3a;
+  vertical-align: middle;
+  text-align: center;
+  font-family: "symbols-technomart";
+  text-decoration: none;
+}
+
+.social:hover {
+  background-color: #ee3643;
+}
+
+.connect-item {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 48px;
 }

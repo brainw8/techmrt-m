@@ -67,6 +67,10 @@ main p {
   letter-spacing: 0.5px;
 }
 
+.logo:hover {
+  background-color: #ca2c37;
+}
+
 .logo-bottom {
   position: absolute;
   width: 220px;
@@ -125,6 +129,10 @@ main p {
   text-align: center;
   border: none;
   font-family: "Cuprum", "Arial", sans-serif;
+}
+
+.submit-order:hover {
+  background-color: #5fbb2d;
 }
 
 .basket {
@@ -236,7 +244,7 @@ main p {
 }
 
 .navigation-menu {
-  background-color: #293449;
+  background-color: #32425c;
   color: #FFFFFF;
   min-height: 55px;
   border-bottom: 5px solid #293449;
@@ -271,6 +279,15 @@ ul {
   font-size: 17px;
   line-height: 17px;
   padding: 20px 31px;
+}
+
+.navigation-menu a:hover {
+  background-color: #293449;
+}
+
+.navigation-menu a:active:hover {
+  background-color: #1d2739;
+  color: #a8abaf;
 }
 
 .promo-block {
@@ -350,6 +367,14 @@ ul {
   margin-left: 25px;
 }
 
+.promo-link:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.promo-link:active:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
 .new {
   position: absolute;
   top: 0px;
@@ -394,6 +419,14 @@ ul {
   position: absolute;
   top: 208px;
   left: 25px;
+}
+
+.promo-btn:hover {
+  background-color: #ca2c37;
+}
+
+.promo-btn:active:hover {
+  background-color: #ba2732;
 }
 
 .slider-btn {

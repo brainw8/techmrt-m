@@ -195,7 +195,6 @@ main p {
 
 .header-tel span {
   position: absolute;
-  top: px;
   left: 10px;
   color: #b7bfc8;
 }
@@ -480,12 +479,14 @@ figure.pop-item:last-child {
   line-height: 20px;
 }
 
-.pop-block ul {
+/*.pop-block ul {
   list-style: none;
   padding: 0;
 }
+*/
 
 .pop-brand {
+  display: block;
   margin: 0;
   width: 218px;
   line-height: 143px;
@@ -496,11 +497,15 @@ figure.pop-item:last-child {
   text-align: center;
 }
 
+.pop-brand:hover {
+  box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.5);
+}
+
 .pop-brand img {
   vertical-align: middle;
 }
 
-.pop-brand:nth-child(4n) {
+ .pop-brand:nth-of-type(4n) {
   margin-right: 0;
 }
 
